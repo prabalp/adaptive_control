@@ -18,8 +18,28 @@ D = 0.25;            % length of linor/secondary (in m)
 Lls = 0.005;
 Llr = 0.005;
 
-
 % W_e   primary, frequency
 % W_r   secondary frequency 
 % W_sl  slip electrical frequency
 
+%% RNN PID Parameters
+w1 = 1;
+w2 = 1;
+w3 = 1;
+w4 = 1;
+
+b1 = 1;
+b2 = 1;
+b3 = 1; 
+b4 = 1;
+
+ql = 1;
+qq1 = 1;
+qq2 = 1;
+qq3 = 1;
+qq4 = 1;
+
+a1 = 1;
+a2 = 1;
+a3 = 1;
+a4 = 1;
